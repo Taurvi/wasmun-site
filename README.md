@@ -1,0 +1,2 @@
+# wasmun-site
+WASMUN Website
