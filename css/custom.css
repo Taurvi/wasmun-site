@@ -1,4 +1,21 @@
-#about-uwmun {
+#about-uwmun, #footer-suggestions{
     font-size: .9em;
     font-style: italic;
+}
+
+#copyright {
+    font-size: .9em;
+    padding-top: 25px;
+}
+
+.section-mission {
+    width: 100%;
+    padding: 90px 90px;
+    color: #FFFFFF;
+    background: url(../img/mission.jpg) no-repeat center center scroll;
+    background-color: #FFFFFF;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
