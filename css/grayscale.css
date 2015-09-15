@@ -66,7 +66,8 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #FFFFFF;
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .navbar-custom .navbar-brand {
@@ -284,7 +285,11 @@ a:focus {
         padding-top: 100px;
     }
 
-    .download-section {
+    .get-involved-section {
+        padding: 100px 0;
+    }
+
+    .mission-section {
         padding: 100px 0;
     }
 
