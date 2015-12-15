@@ -22,6 +22,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                     controller: 'CtrlSecretariat'
                 }
             }
+        })
+        .state('conferenceInfo', {
+            url: '/conference-info',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/conference-info.html',
+                    controller: 'CtrlConfInfo'
+                }
+            }
         });
 
     $urlRouterProvider.otherwise('/');
