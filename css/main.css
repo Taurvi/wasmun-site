@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/* Sticky Footer Code */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-top: 50px;
+    margin-bottom: 150px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 130px;
+    /*background-color: #00ff00;*/
+    background-color: #f5f5f5;
+}
+
+.footer-text {
+    position: absolute;
+    font-size: .9em;
+    bottom: 0;
+}
+
+/* Navbar code */
+.dropdown-menu {
+    width: 100%;
+}
+
+/* Center Block */
+.center-block {
+    float: none;
+}
+
+/* Spacers */
+.spacer-sm {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.spacer-sm-fixed {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+/* Home Page Jumbotron */
+.jumbo-home {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/home-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/* Home Page About */
+.home-about {
+    line-height: 200%;
+}
+
+/* Outline Buttons */
+.btn-outline {
+    background-color: transparent;
+    color: inherit;
+    transition: all .1s;
+    background-image: none;
+    text-shadow: none;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.btn-primary.btn-outline {
+    color: #2B669A;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover{
+    color: #fff;
+    background: #428bca;
+}
+
+.btn-success.btn-outline:hover{
+    color: #fff;
+    background: #5cb85c;
+}
+
+.btn-info.btn-outline:hover{
+    color: #fff;
+    background: #5bc0de;
+}
+
+.btn-warning.btn-outline:hover{
+    color: #fff;
+    background: #f0ad4e;
+}
+
+.btn-danger.btn-outline:hover {
+    color: #fff;
+    background: #d9534f;
+}
+
