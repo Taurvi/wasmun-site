@@ -13,7 +13,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                     controller: 'CtrlHome'
                 }
             }
-
+        })
+        .state('secretariat', {
+            url: '/secretariat',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/secretariat.html',
+                    controller: 'CtrlSecretariat'
+                }
+            }
         });
 
     $urlRouterProvider.otherwise('/');

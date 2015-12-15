@@ -63,6 +63,16 @@ body {
     line-height: 200%;
 }
 
+/* Secretariat Page Jumbotron */
+.jumbo-secretariat {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/secretariat-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 /* Outline Buttons */
 .btn-outline {
     background-color: transparent;
