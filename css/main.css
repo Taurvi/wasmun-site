@@ -23,8 +23,8 @@ body {
 }
 
 .footer-text {
+    font-size: .8em;
     position: absolute;
-    font-size: .9em;
     bottom: 0;
 }
 
