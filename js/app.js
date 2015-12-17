@@ -41,6 +41,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+        .state('apply', {
+            url: '/apply',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/apply.html',
+                    controller: 'CtrlApply'
+                }
+            }
+        })
         .state('conferenceInfo', {
             url: '/conference-info',
             views: {

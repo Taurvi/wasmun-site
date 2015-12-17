@@ -97,6 +97,17 @@ body {
 }
 
 /* Staff Page Jumbotron */
+.jumbo-apply {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/apply-bg.png');
+    background-position: center 65%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
+/* Staff Page Jumbotron */
 .jumbo-staff {
     color: #ffffff;
     font-weight: 700;
