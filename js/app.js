@@ -14,12 +14,30 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+        .state('about', {
+            url: '/about',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/about.html',
+                    controller: ''
+                }
+            }
+        })
         .state('secretariat', {
             url: '/secretariat',
             views: {
                 'content': {
                     templateUrl: 'js/views/secretariat.html',
-                    controller: 'CtrlSecretariat'
+                    controller: ''
+                }
+            }
+        })
+        .state('staff', {
+            url: '/staff',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/staff.html',
+                    controller: ''
                 }
             }
         })
@@ -28,7 +46,7 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
             views: {
                 'content': {
                     templateUrl: 'js/views/conference-info.html',
-                    controller: 'CtrlConfInfo'
+                    controller: ''
                 }
             }
         });

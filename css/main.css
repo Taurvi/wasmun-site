@@ -8,7 +8,7 @@ html {
 
 body {
     margin-top: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
@@ -17,8 +17,7 @@ body {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 130px;
-    /*background-color: #00ff00;*/
+    height: 100px;
     background-color: #f5f5f5;
 }
 
@@ -64,6 +63,17 @@ body {
     line-height: 200%;
 }
 
+/* About Page Jumbotron */
+.jumbo-about {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/about-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
 /* Secretariat Page Jumbotron */
 .jumbo-secretariat {
     color: #ffffff;
@@ -80,6 +90,17 @@ body {
     color: #ffffff;
     font-weight: 700;
     background-image: url('../img/conference-info-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
+/* Staff Page Jumbotron */
+.jumbo-staff {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/staff-bg.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;

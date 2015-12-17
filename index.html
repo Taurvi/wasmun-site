@@ -10,8 +10,12 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <!-- Bootstrap Theme 3.3.6 -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+    <!-- Font Awesome 4.5.0 -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/main.css">
+
+
 </head>
 <body ng-app="ngApp">
 
@@ -40,20 +44,20 @@
                 <li ui-sref-active="active">
                     <a ui-sref="home">Home</a>
                 </li>
+                <li ui-sref-active="active">
+                    <a ui-sref="about">About</a>
+                </li>
                 <li class="dropdown" ui-sref-active="active">
                     <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Staff and Secretariat <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a ui-sref="secretariat">Secretariat Info</a></li>
-                        <li><a href="#">Committee Staff</a></li>
+                        <li><a ui-sref="staff">Committee Staff</a></li>
                         <li role="separator" class="divider"></li>
                         <li><a href="#">Staff Applications</a></li>
                     </ul>
                 </li>
                 <li ui-sref-active="active">
                     <a ui-sref="conferenceInfo">Conference Information</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
                 </li>
             </ul>
         </div>
@@ -66,9 +70,8 @@
 <div ui-view="content"></div>
 
 <footer class="footer">
-    <div class="spacer-sm"></div>
     <div class="container-fluid">
-        <div class="text-center">
+        <div class="text-center" style="margin-top: 2%;">
             <p>WASMUN is hosted by Model United Nations at the University of Washington (UW-MUN). For more information visit <a href="http://www.uw-mun.org" target="_blank">www.uw-mun.org</a>.
             </p>
             <p>
