@@ -56,8 +56,12 @@
                         <li><a ui-sref="apply">Staff Applications</a></li>
                     </ul>
                 </li>
-                <li ui-sref-active="active">
-                    <a ui-sref="conferenceInfo">Conference Information</a>
+                <li class="dropdown" ui-sref-active="active">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conference<span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a ui-sref="conferenceInfo">Information</a></li>
+                        <li><a ui-sref="register">Registration</a></li>
+                    </ul>
                 </li>
             </ul>
         </div>

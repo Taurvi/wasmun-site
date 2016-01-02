@@ -58,6 +58,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                     controller: ''
                 }
             }
+        })
+        .state('register', {
+            url: '/register',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/registration.html',
+                    controller: ''
+                }
+            }
         });
 
     $urlRouterProvider.otherwise('/');

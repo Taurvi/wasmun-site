@@ -119,6 +119,17 @@ body {
     text-transform: uppercase;
 }
 
+/* Register Page */
+.jumbo-register {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/register-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
 /* Outline Buttons */
 .btn-outline {
     background-color: transparent;
