@@ -1,4 +1,4 @@
-var ngApp = angular.module('ngApp', ['ui.router']);
+var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ngAnimate']);
 
 ngApp.config(function($stateProvider, $urlRouterProvider) {
     // Strict Mode
@@ -64,7 +64,7 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
             views: {
                 'content': {
                     templateUrl: 'js/views/registration.html',
-                    controller: ''
+                    controller: 'CtrlRegister'
                 }
             }
         });

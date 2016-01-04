@@ -5,20 +5,211 @@
 </div>
 <div class="row">
     <div class="col-sm-10 center-block">
-        <div class="row text-center">
-            <img src="img/logo-v-small.png">
+        <div class="row">
+            <form name="form-registration">
+
+                <div ng-hide="false" class="school-information">
+                    <h2>SCHOOL INFORMATION</h2>
+                    <div class="spacer-form"></div>
+                    <div class="form-group-lg">
+                        <label for="formSchoolName">School Name:</label>
+                        <input class="form-control" name="formSchoolName" id="formSchoolName" ng-model="ngSchoolName">
+                    </div>
+
+                    <div class="spacer-form"></div>
+                    <div class="form-group-lg">
+                        <label for="formSchoolName">School Address:</label>
+                        <div class="input-group">
+                            <span class="input-group-addon">Address Line 1</span>
+                            <input class="form-control" name="formSchoolAddress" id="formSchoolAddress" ng-model="ngSchoolAddress">
+                        </div>
+
+                        <div class="spacer-form"></div>
+
+                        <div class="input-group">
+                            <span class="input-group-addon">Address Line 2</span>
+                            <input class="form-control" name="formSchoolAddress2" id="formSchoolAddress2" ng-model="ngSchoolAddress2">
+                        </div>
+
+                        <div class="spacer-form"></div>
+
+                        <div class="row">
+                            <div class="col-xs-7">
+                                <div class="input-group">
+                                    <span class="input-group-addon">City</span>
+                                    <input class="form-control" name="formSchoolCity" id="formSchoolCity" ng-model="ngSchoolCity">
+                                </div>
+                            </div>
+                            <div class="col-xs-2">
+                                <div class="input-group">
+                                    <span class="input-group-addon">State</span>
+                                    <input class="form-control" name="formSchoolState" id="formSchoolState" ng-model="ngSchoolState">
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+
+                                <div class="input-group">
+                                    <span class="input-group-addon">Zip Code</span>
+                                    <input class="form-control" name="formSchoolZipCode" id="formSchoolZipCode" ng-model="ngSchoolZipCode">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="spacer-form-lg"></div>
+
+                <div ng-hide="false" class="user-information">
+                    <h2>CONTACT INFORMATION</h2>
+                    <div class="spacer-form"></div>
+                    <label for="formAdvisorName">Advisor:</label>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <div class="input-group">
+                                    <span class="input-group-addon">Name</span>
+                                    <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <div class="input-group">
+                                    <span class="input-group-addon">Email</span>
+                                    <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spacer-form"></div>
+
+                    <label for="formAdvisorName">Head Delegate(s):</label>
+                    <div class="row">
+
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <div class="input-group">
+                                    <span class="input-group-addon">HD 1 Name</span>
+                                    <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <div class="input-group">
+                                    <span class="input-group-addon">HD 1 Email</span>
+                                    <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                            <div class="spacer-form"></div>
+
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <div class="input-group">
+                                    <span class="input-group-addon">HD 2 Name</span>
+                                    <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <div class="input-group">
+                                    <span class="input-group-addon">HD 2 Email</span>
+                                    <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="spacer-form-lg"></div>
+
+                <div ng-hide="false" class="delegation-information">
+                    <h2>DELEGATION INFORMATION</h2>
+                    <div class="spacer-form"></div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="form-group-lg">
+                                <label for="formAdvisorName">Delegation Size:</label>
+                                <input type="number" class="form-control" id="formDelegationSize" name="formDelegationSize" ng-model="ngDelegationSize">
+                            </div>
+                        </div>
+
+                        <div class="col-xs-6">
+                            <div class="panel panel-info">
+                                <div class="panel-heading">Cost Breakdown</div>
+                                <div class="panel-body">
+                                    <table class="table table-responsive">
+                                        <tr>
+                                            <td style="border: none">Delegation Fee</td>
+                                            <td style="border: none">$50.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="border: none"><i class="fa fa-info-circle" tooltip-placement="left" uib-tooltip="The fee per delegate is $35."></i> Delegate Fee</td>
+                                            <td style="border: none">${{calculateDelegateCost()}}.00</td>
+                                        </tr>
+                                        <tr class="text-info" style="font-weight: bold">
+                                            <td>Subtotal</td>
+                                            <td>${{50 + calculateDelegateCost()}}.00</td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="spacer-form"></div>
+
+                    <div>
+                        <label>Preferred Member States:</label>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-9">
+                            Click the (<i class="fa fa-plus-circle"></i>) icon next to each Member State to add to your preferences.
+                            <table ng-show="countryMatrix.length != 0" class="table table-responsive table-bordered">
+                                <tr>
+                                    <th class="col-xs-1">Add</th>
+                                    <th class="col-xs-1">Slots</th>
+                                    <th>Country</th>
+                                    <th class="col-xs-1">GA4</th>
+                                    <th class="col-xs-1">ECOSOC</th>
+                                    <th class="col-xs-1">UNODC</th>
+                                    <th class="col-xs-1">HRC</th>
+                                    <th class="col-xs-1">UNEP</th>
+                                    <th class="col-xs-1">ICJ</th>
+                                </tr>
+                                <tr ng-repeat="country in countryMatrix" ng-show="checkSelectedState(country.country) == -1" class="text-center">
+                                    <td class="text-info"><i class="fa fa-2x fa-plus-circle" style="cursor: pointer; cursor: hand;" ng-click="addMemberState(country.country)"></i></td>
+                                    <td>{{getCommitteeSize(country.committees)}}</td>
+                                    <td>{{country.country}}</td>
+                                    <td ng-repeat="committee in country.committees"><span ng-show="committee" class="text-success"><i class="fa fa-user"></i></span></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-xs-3">
+                            Currently selected:
+                            <div class="spacer-form"></div>
+                            <div class="text-success" ng-repeat="country in selectedMemberStates"><i class="fa fa-times-circle text-danger" style="cursor: pointer; cursor: hand;" ng-click="removeMemberState(country)"></i>{{country}}</div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </form>
         </div>
-        <h4 class="text-center">WASMUN 2016 is going to be hosted from <strong>March 5th to March 6th</strong> at the <strong>University of Washington</strong>.</h4>
 
         <div class="spacer-sm"></div>
-
-        <h3>Registration Information</h3>
-        <h4 class="home-about">Priority registration is expected to open on January 1, 2016. The last day to register will be February 20, 2016.</h4>
-
-        <div class="spacer-sm"></div>
-
-        <h3>Conference Schedule</h3>
-        <h4 class="home-about">The schedule for the conference is still being determined. Please check back or email <a href="mailto:sg@wasmun.org">sg@wasmun.org</a>.</h4>
     </div>
-    <div class="spacer-sm"></div>
 </div>
