@@ -1,0 +1,1432 @@
+[
+	{
+		"country" : "Afghanistan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Albania",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Algeria",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Andorra",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Angola",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Argentina",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Armenia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Australia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Austria",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Azerbaijan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Bahrain",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Bangladesh",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Belarus",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Belgium",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Bolivia, Plurinational State of",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Botswana",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Brazil",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Bulgaria",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Cambodia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Canada",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Chile",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "China",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Costa Rica",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Cote d'Ivoire",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Croatia",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Cuba",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Czech Republic",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Dem. People's Rep. of Korea",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Dem. Rep. of the Congo",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Denmark",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Dominican Republic",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Ecuador",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Egypt",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "El Salvador",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Estonia",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Ethiopia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Fiji",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Finland",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "France",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : true,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Gabon",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Georgia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Germany",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Ghana",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Greece",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Guatemala",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Haiti",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Honduras",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Hungary",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Iceland",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "India",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Indonesia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Iran, Islamic Rep. of",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Iraq",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Ireland",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Israel",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Italy",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Jamaica",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Japan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Jordan",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Kazakhstan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Kenya",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Kuwait",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Lao People's Dem. Rep.",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Latvia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Lebanon",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Liberia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Libya",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Liechtenstein",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Luxembourg",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Macedonia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Malawi",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Malaysia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Maldives",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Mali",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Malta",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Mexico",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Monaco",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Mongolia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Montenegro",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Morocco",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Mozambique",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Myanmar",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Nepal",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Netherlands",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "New Zealand",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Nicaragua",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Nigeria",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Norway",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Pakistan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Palestine, State of",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Panama",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Paraguay",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Peru",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Philippines",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Poland",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Portugal",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Qatar",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Republic of Congo",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Republic of Korea",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Romania",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Russian Federation",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Rwanda",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Saudi Arabia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Senegal",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Serbia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Sierra Leone",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : true,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Singapore",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Slovakia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Slovenia",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Somalia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "South Africa",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,			
+			"unep" : false,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Spain",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Sri Lanka",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Sudan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "South Sudan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Sweden",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Switzerland",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Syrian Arab Republic",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Thailand",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Turkey",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Uganda",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Ukraine",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "United Arab Emirates",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "United Kingdom",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "United States of America",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Uruguay",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Venezuela",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Vietnam",
+		"committees" : {
+			"ga4" : false,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : true,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Yemen",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	},
+	{
+		"country" : "Zimbabwe",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : true,
+			"hrc" : false,			
+			"unep" : true,
+			"icj" : false
+		}
+	}
+]
