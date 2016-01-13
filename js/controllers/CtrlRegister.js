@@ -35,7 +35,6 @@ ngApp.controller('CtrlRegister', ['$scope', '$rootScope', '$http', function($sco
             method: 'GET',
             url: 'data/matrix.json'
         }).then(function successCallback(response) {
-            console.log(response.data);
             $scope.countryMatrix = response.data;
         }, function errorCallback(err) {
             console.log(err);
