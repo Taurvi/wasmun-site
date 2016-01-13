@@ -3,25 +3,26 @@
         <h1>REGISTRATION</h1>
     </div>
 </div>
-<div class="row">
-    <div class="col-sm-10 center-block">
-        <div class="row">
-            <form name="form-registration">
 
+<div class="row">
+    <div class="col-xs-8 center-block">
+        <div class="row" ng-hide="pendingSubmission || formSuccess || formError">
+            <form name="formRegistration" novalidate>
                 <div ng-hide="false" class="school-information">
+                    <div class="text-danger">Fields and sections marked with a * are required.</div>
                     <h2>SCHOOL INFORMATION</h2>
                     <div class="spacer-form"></div>
-                    <div class="form-group-lg">
-                        <label for="formSchoolName">School Name:</label>
-                        <input class="form-control" name="formSchoolName" id="formSchoolName" ng-model="ngSchoolName">
+                    <div class="form-group-lg" show-errors>
+                        <label for="formSchoolName" class="control-label">*School Name:</label>
+                        <input class="form-control" name="formSchoolName" id="formSchoolName" ng-model="ngSchoolName" required/>
                     </div>
 
                     <div class="spacer-form"></div>
                     <div class="form-group-lg">
-                        <label for="formSchoolName">School Address:</label>
-                        <div class="input-group">
+                        <label for="formSchoolName">*School Address:</label>
+                        <div class="input-group" show-errors>
                             <span class="input-group-addon">Address Line 1</span>
-                            <input class="form-control" name="formSchoolAddress" id="formSchoolAddress" ng-model="ngSchoolAddress">
+                            <input class="form-control" name="formSchoolAddress" id="formSchoolAddress" ng-model="ngSchoolAddress" required>
                         </div>
 
                         <div class="spacer-form"></div>
@@ -34,23 +35,23 @@
                         <div class="spacer-form"></div>
 
                         <div class="row">
-                            <div class="col-xs-7">
-                                <div class="input-group">
+                            <div class="col-xs-5">
+                                <div class="input-group" show-errors>
                                     <span class="input-group-addon">City</span>
-                                    <input class="form-control" name="formSchoolCity" id="formSchoolCity" ng-model="ngSchoolCity">
-                                </div>
-                            </div>
-                            <div class="col-xs-2">
-                                <div class="input-group">
-                                    <span class="input-group-addon">State</span>
-                                    <input class="form-control" name="formSchoolState" id="formSchoolState" ng-model="ngSchoolState">
+                                    <input class="form-control" name="formSchoolCity" id="formSchoolCity" ng-model="ngSchoolCity" required>
                                 </div>
                             </div>
                             <div class="col-xs-3">
+                                <div class="input-group" show-errors>
+                                    <span class="input-group-addon">State</span>
+                                    <input class="form-control" name="formSchoolState" id="formSchoolState" ng-model="ngSchoolState" required>
+                                </div>
+                            </div>
+                            <div class="col-xs-4">
 
-                                <div class="input-group">
+                                <div class="input-group" show-errors>
                                     <span class="input-group-addon">Zip Code</span>
-                                    <input class="form-control" name="formSchoolZipCode" id="formSchoolZipCode" ng-model="ngSchoolZipCode">
+                                    <input class="form-control" name="formSchoolZipCode" id="formSchoolZipCode" ng-model="ngSchoolZipCode" required>
                                 </div>
                             </div>
                         </div>
@@ -62,60 +63,64 @@
                 <div ng-hide="false" class="user-information">
                     <h2>CONTACT INFORMATION</h2>
                     <div class="spacer-form"></div>
-                    <label for="formAdvisorName">Advisor:</label>
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="form-group-lg">
-                                <div class="input-group">
-                                    <span class="input-group-addon">Name</span>
-                                    <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName">
-                                </div>
-                            </div>
+                    <label for="formAdvisorName">*Advisor:</label>
+                    <div class="form-group-lg">
+                        <div class="input-group" show-errors>
+                            <span class="input-group-addon">Name</span>
+                            <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName" required>
                         </div>
+                    </div>
+                    <div class="spacer-form"></div>
 
-                        <div class="col-xs-6">
-                            <div class="form-group-lg">
-                                <div class="input-group">
-                                    <span class="input-group-addon">Email</span>
-                                    <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail">
-                                </div>
-                            </div>
+                    <div class="form-group-lg">
+                        <div class="input-group" show-errors>
+                            <span class="input-group-addon">Email</span>
+                            <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail" required>
                         </div>
                     </div>
 
                     <div class="spacer-form"></div>
 
-                    <label for="formAdvisorName">Head Delegate(s):</label>
+                    <div class="form-group-lg">
+                        <div class="input-group" show-errors>
+                            <span class="input-group-addon">Phone Number</span>
+                            <input type="text" class="form-control" name="formAdvisorPhone" id="formAdvisorPhone" ng-model="ngAdvisorPhone" required>
+                        </div>
+                    </div>
+
+                    <div class="spacer-form"></div>
+
+                    <label for="formHdName">*Head Delegate(s):</label>
                     <div class="row">
 
                         <div class="col-xs-6">
                             <div class="form-group-lg">
-                                <div class="input-group">
+                                <div class="input-group" show-errors>
                                     <span class="input-group-addon">HD 1 Name</span>
-                                    <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName">
+                                    <input type="text" class="form-control" name="formHdName" id="formHdName" ng-model="ngHdName" required>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-xs-6">
                             <div class="form-group-lg">
-                                <div class="input-group">
+                                <div class="input-group" show-errors>
                                     <span class="input-group-addon">HD 1 Email</span>
-                                    <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail">
+                                    <input type="email" class="form-control" name="formHdEmail" id="formHdEmail" ng-model="ngHdEmail" required>
                                 </div>
                             </div>
 
                         </div>
                     </div>
 
-                            <div class="spacer-form"></div>
+                    <div class="spacer-form"></div>
 
                     <div class="row">
                         <div class="col-xs-6">
                             <div class="form-group-lg">
                                 <div class="input-group">
                                     <span class="input-group-addon">HD 2 Name</span>
-                                    <input type="text" class="form-control" name="formAdvisorName" id="formAdvisorName" ng-model="ngAdvisorName">
+                                    <input type="text" class="form-control" name="formHdName2" id="formHdName2" ng-model="ngHdName2">
                                 </div>
                             </div>
                         </div>
@@ -124,7 +129,7 @@
                             <div class="form-group-lg">
                                 <div class="input-group">
                                     <span class="input-group-addon">HD 2 Email</span>
-                                    <input type="email" class="form-control" name="formAdvisorEmail" id="formAdvisorEmail" ng-model="ngAdvisorEmail">
+                                    <input type="email" class="form-control" name="formHdEmail2" id="formHdEmail2" ng-model="ngHdEmail2">
                                 </div>
                             </div>
                         </div>
@@ -139,9 +144,9 @@
                     <div class="spacer-form"></div>
                     <div class="row">
                         <div class="col-xs-6">
-                            <div class="form-group-lg">
-                                <label for="formAdvisorName">Delegation Size:</label>
-                                <input type="number" class="form-control" id="formDelegationSize" name="formDelegationSize" ng-model="ngDelegationSize">
+                            <div class="form-group-lg" show-errors="">
+                                <label for="formAdvisorName" class="control-label">*Delegation Size:</label>
+                                <input type="number" class="form-control" id="formDelegationSize" name="formDelegationSize" ng-model="ngDelegationSize" required ng-min="1">
                             </div>
                         </div>
 
@@ -171,45 +176,74 @@
                     <div class="spacer-form"></div>
 
                     <div>
-                        <label>Preferred Member States:</label>
+                        <label>Preferred Countries:</label> <a ng-click="matrixOpen = !matrixOpen">(Show/Hide Matrix)</a><br>
+                        Currently selected: <span ng-show="selectedMemberStates.length == 0">None</span>
+                        <div class="spacer-form"></div>
+                        <div class="text-success" ng-repeat="country in selectedMemberStates"><i class="fa fa-times-circle text-danger" style="cursor: pointer; cursor: hand;" ng-click="removeMemberState(country)"></i>{{country}}</div>
+                        <div class="spacer-form"></div>
                     </div>
-
                     <div class="row">
-                        <div class="col-xs-9">
-                            Click the (<i class="fa fa-plus-circle"></i>) icon next to each Member State to add to your preferences.
-                            <table ng-show="countryMatrix.length != 0" class="table table-responsive table-bordered">
-                                <tr>
-                                    <th class="col-xs-1">Add</th>
-                                    <th class="col-xs-1">Slots</th>
-                                    <th>Country</th>
-                                    <th class="col-xs-1">GA4</th>
-                                    <th class="col-xs-1">ECOSOC</th>
-                                    <th class="col-xs-1">UNODC</th>
-                                    <th class="col-xs-1">HRC</th>
-                                    <th class="col-xs-1">UNEP</th>
-                                    <th class="col-xs-1">ICJ</th>
-                                </tr>
-                                <tr ng-repeat="country in countryMatrix" ng-show="checkSelectedState(country.country) == -1" class="text-center">
-                                    <td class="text-info"><i class="fa fa-2x fa-plus-circle" style="cursor: pointer; cursor: hand;" ng-click="addMemberState(country.country)"></i></td>
-                                    <td>{{getCommitteeSize(country.committees)}}</td>
-                                    <td>{{country.country}}</td>
-                                    <td ng-repeat="committee in country.committees"><span ng-show="committee" class="text-success"><i class="fa fa-user"></i></span></td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="col-xs-3">
-                            Currently selected:
-                            <div class="spacer-form"></div>
-                            <div class="text-success" ng-repeat="country in selectedMemberStates"><i class="fa fa-times-circle text-danger" style="cursor: pointer; cursor: hand;" ng-click="removeMemberState(country)"></i>{{country}}</div>
-                        </div>
+                        <!--<div class="panel panel-default">
+                            <div class="panel-heading">Filter Options</div>
+                            <div class="panel-body" uib-collapse="isCollapsed">
+                                <div class="form-group-sm col-xs-5">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">Country</span>
+                                        <input class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                        <span ng-show="matrixOpen">Click the (<i class="fa fa-plus-circle"></i>) icon next to each Country to add to your preferences.</span>
+                        <table ng-show="countryMatrix.length != 0 && matrixOpen" class="table table-responsive table-bordered">
+                            <tr>
+                                <th class="col-xs-1">Add</th>
+                                <th class="col-xs-1">Slots</th>
+                                <th>Country</th>
+                                <th class="col-xs-1">GA4</th>
+                                <th class="col-xs-1">ECOSOC</th>
+                                <th class="col-xs-1">UNODC</th>
+                                <th class="col-xs-1">HRC</th>
+                                <th class="col-xs-1">UNEP</th>
+                                <th class="col-xs-1">ICJ 1</th>
+                                <th class="col-xs-1">ICJ 2</th>
+                            </tr>
+                            <tr ng-repeat="country in countryMatrix" ng-show="checkSelectedState(country.country) == -1" class="text-center">
+                                <td class="text-info"><i class="fa fa-2x fa-plus-circle" style="cursor: pointer; cursor: hand;" ng-click="addMemberState(country.country)"></i></td>
+                                <td>{{getCommitteeSize(country.committees)}}</td>
+                                <td>{{country.country}}</td>
+                                <td ng-repeat="committee in country.committees"><span ng-show="committee" class="text-success"><i class="fa fa-user"></i></span></td>
+                            </tr>
+                        </table>
                     </div>
 
 
                 </div>
 
+                <div class="text-center">
+                    <button class="btn btn-success btn-lg" ng-click="prepareData()" ng-disabled="pendingSubmission">Submit Registration</button>
+                    <div class="text-danger" ng-show="formRegistration.$invalid">Error: All fields and sections with a * are required.</div>
+                </div>
+
             </form>
         </div>
-
+        <div class="row" ng-show="formSuccess">
+            <div class="panel panel-success">
+                <div class="panel-heading">Successful Registration</div>
+                <div class="panel-body text-center">
+                    <p>Thank you for registering for WASMUN 2016.</p>
+                    <p>If you have any questions, please email <a href="mailto:sg@wasmun.org">sg@wasmun.org</a>. You will receive a confirmation email with your login and password in 1-3 days. If you do not receive a confirmation during this time period, please email <a href="mailto:usgit@wasmun.org">usgit@wasmun.org</a>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" ng-show="formError">
+            <div class="panel panel-success">
+                <div class="panel-heading">Failed Registration</div>
+                <div class="panel-body">
+                    There was an error in registering. Please email <a href="mailto:usgit@wasmun.org">usgit@wasmun.org</a> as soon as possible. We apologize for the inconvenience.
+                </div>
+            </div>
+        </div>
         <div class="spacer-sm"></div>
     </div>
 </div>

@@ -1,4 +1,8 @@
-var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ngAnimate']);
+var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate']);
+
+ngApp.config(['showErrorsConfigProvider', function(showErrorsConfigProvider) {
+    showErrorsConfigProvider.showSuccess(true);
+}]);
 
 ngApp.config(function($stateProvider, $urlRouterProvider) {
     // Strict Mode
@@ -70,4 +74,6 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
         });
 
     $urlRouterProvider.otherwise('/');
+
+
 });
