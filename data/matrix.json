@@ -26,7 +26,7 @@
 	{
 		"country" : "Algeria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : true,			
@@ -38,7 +38,7 @@
 	{
 		"country" : "Andorra",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
 			"hrc" : false,			
@@ -99,7 +99,7 @@
 	{
 		"country" : "Austria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
 			"hrc" : false,			
@@ -123,7 +123,7 @@
 	{
 		"country" : "Bahrain",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
 			"hrc" : false,			
@@ -171,7 +171,7 @@
 	{
 		"country" : "Bolivia, Plurinational State of",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
 			"hrc" : false,			
@@ -183,7 +183,7 @@
 	{
 		"country" : "Botswana",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
 			"hrc" : false,			
@@ -207,7 +207,7 @@
 	{
 		"country" : "Bulgaria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -231,7 +231,7 @@
 	{
 		"country" : "Canada",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -291,7 +291,7 @@
 	{
 		"country" : "Croatia",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -351,7 +351,7 @@
 	{
 		"country" : "Denmark",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -387,7 +387,7 @@
 	{
 		"country" : "Egypt",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -411,7 +411,7 @@
 	{
 		"country" : "Estonia",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -459,7 +459,7 @@
 	{
 		"country" : "France",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
 			"hrc" : true,			
@@ -555,7 +555,7 @@
 	{
 		"country" : "Honduras",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -663,7 +663,7 @@
 	{
 		"country" : "Italy",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -699,7 +699,7 @@
 	{
 		"country" : "Jordan",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -843,7 +843,7 @@
 	{
 		"country" : "Malawi",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -891,7 +891,7 @@
 	{
 		"country" : "Malta",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
 			"hrc" : false,			
@@ -999,7 +999,7 @@
 	{
 		"country" : "Netherlands",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
 			"hrc" : false,			
@@ -1023,7 +1023,7 @@
 	{
 		"country" : "Nicaragua",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -1035,7 +1035,7 @@
 	{
 		"country" : "Nigeria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : true,			
@@ -1095,7 +1095,7 @@
 	{
 		"country" : "Paraguay",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
 			"hrc" : true,			
@@ -1119,7 +1119,7 @@
 	{
 		"country" : "Philippines",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -1263,7 +1263,7 @@
 	{
 		"country" : "Sierra Leone",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : false,
 			"hrc" : true,			
@@ -1299,7 +1299,7 @@
 	{
 		"country" : "Slovenia",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : false,			
@@ -1323,7 +1323,7 @@
 	{
 		"country" : "South Africa",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
 			"hrc" : false,			
@@ -1479,7 +1479,7 @@
 	{
 		"country" : "United Kingdom",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : true,			
@@ -1527,7 +1527,7 @@
 	{
 		"country" : "Vietnam",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
 			"hrc" : true,			
