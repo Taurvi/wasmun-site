@@ -1,7 +1,4 @@
 var ngApp = angular.module('ngApp');
-
-var socket = io('http://localhost:3000');
-
 ngApp.animation('.reveal-animation', function() {
     return {
         enter: function(element, done) {

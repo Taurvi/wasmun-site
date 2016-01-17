@@ -1,13 +1,13 @@
+var socket = io('http://localhost:8080');
 var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate']);
 
 ngApp.config(['showErrorsConfigProvider', function(showErrorsConfigProvider) {
     showErrorsConfigProvider.showSuccess(true);
 }]);
 
-ngApp.config(function($stateProvider, $urlRouterProvider) {
+ngApp.config(function($stateProvider, $urlRouterProvider, $locationProvider) {
     // Strict Mode
     'use strict';
-
     $stateProvider
         .state('home', {
             url: '/',
@@ -72,8 +72,9 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
         });
-
     $urlRouterProvider.otherwise('/');
-
-
+    if(window.history && window.history.pushState){
+        console.log('html5')
+        $locationProvider.html5Mode(true);
+    }
 });
