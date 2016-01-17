@@ -10,6 +10,7 @@
         <button class="btn btn-default btn-lg" ng-click="getData()">Retrieve Registration Data</button>
 
         <div ng-repeat="dataEntry in registerData"><h3>{{dataEntry.schoolInfo.name}} ({{dataEntry.delegateInfo.size}})</h3>
+            <h4>{{dataEntry.advisorInfo.name}} ({{dataEntry.advisorInfo.email}})</h4>
                 <div class="text-success" ng-repeat="country in dataEntry.delegateInfo.requests">{{country}}</div>
 
         </div>

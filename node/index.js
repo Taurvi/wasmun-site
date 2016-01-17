@@ -39,8 +39,7 @@ http.listen(8080, function () {
 /*****************************************************
  **************** FIREBASE  DATABASES ****************
  *****************************************************/
-var registerDatabase = new Firebase("http://wasmun-register.firebaseio.com/");
-//var userDatabase = new Firebase("http://wasmun-register.firebase.com/");
+var registerDatabase = new Firebase("");
 
 /*****************************************************
  **************** PASSPORT  FUNCTIONS ****************
