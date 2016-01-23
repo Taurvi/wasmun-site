@@ -108,7 +108,6 @@ io.sockets.on('connection', function (socket) {
     });
 
     // Get a database reference to our posts
-    var ref = new Firebase("");
 
 // Attach an asynchronous callback to read the data at our posts reference
     socket.on('retrieveRegistration', function(dataPackage) {
