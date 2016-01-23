@@ -63,6 +63,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
         })
+        .state('conferenceSpeaker', {
+            url: '/conference-speaker',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/conference-speaker.html',
+                    controller: ''
+                }
+            }
+        })
         .state('register', {
             url: '/register',
             views: {

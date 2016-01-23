@@ -112,6 +112,18 @@ body {
     text-transform: uppercase;
 }
 
+/* Conference Info Jumbotron */
+.jumbo-conference-speaker {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/speaker-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
+
 /* Staff Page Jumbotron */
 .jumbo-apply {
     color: #ffffff;
