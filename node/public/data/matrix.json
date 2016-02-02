@@ -5,8 +5,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -15,10 +15,10 @@
 		"country" : "Albania",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -26,10 +26,10 @@
 	{
 		"country" : "Algeria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -38,11 +38,11 @@
 	{
 		"country" : "Andorra",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -51,10 +51,22 @@
 		"country" : "Angola",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Antigua and Barbuda",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -65,7 +77,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -75,10 +87,10 @@
 		"country" : "Armenia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 
@@ -90,7 +102,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : true
@@ -99,10 +111,10 @@
 	{
 		"country" : "Austria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : false,
 			"icj" : false,
 			"icj2" : false
@@ -112,10 +124,10 @@
 		"country" : "Azerbaijan",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -123,11 +135,11 @@
 	{
 		"country" : "Bahrain",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -138,8 +150,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -148,9 +160,21 @@
 		"country" : "Belarus",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Benin",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -162,7 +186,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -171,10 +195,10 @@
 	{
 		"country" : "Bolivia, Plurinational State of",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : false,
 			"icj" : false,
 			"icj2" : false
@@ -183,10 +207,10 @@
 	{
 		"country" : "Botswana",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : false,
+			"ga4" : true,
+			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -198,7 +222,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -207,10 +231,34 @@
 	{
 		"country" : "Bulgaria",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Burkina Faso",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Burundi",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -220,9 +268,21 @@
 		"country" : "Cambodia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Cameroon",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -231,10 +291,46 @@
 	{
 		"country" : "Canada",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Cape Verde",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Central African Republic",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Chad",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -246,8 +342,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -256,11 +352,23 @@
 		"country" : "China",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : false,
+			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Comoros",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
 			"icj2" : false
 		}
 	},
@@ -270,19 +378,19 @@
 			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
 		}
 	},
 	{
-		"country" : "Cote d'Ivoire",
+		"country" : "Côte d'Ivoire",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -291,11 +399,11 @@
 	{
 		"country" : "Croatia",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -304,10 +412,10 @@
 		"country" : "Cuba",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -318,8 +426,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -328,9 +436,9 @@
 		"country" : "Dem. People's Rep. of Korea",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -342,8 +450,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -351,10 +459,22 @@
 	{
 		"country" : "Denmark",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Djibouti",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -364,10 +484,10 @@
 		"country" : "Dominican Republic",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -376,10 +496,10 @@
 		"country" : "Ecuador",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -387,10 +507,10 @@
 	{
 		"country" : "Egypt",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -400,9 +520,21 @@
 		"country" : "El Salvador",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Eritrea",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -411,11 +543,11 @@
 	{
 		"country" : "Estonia",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -426,7 +558,19 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Equitorial Guinea",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -436,10 +580,10 @@
 		"country" : "Fiji",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -450,7 +594,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -459,10 +603,10 @@
 	{
 		"country" : "France",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : false,
 			"icj" : true,
 			"icj2" : false
@@ -474,7 +618,19 @@
 			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Gambia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -486,8 +642,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -498,8 +654,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -510,7 +666,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -522,8 +678,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -534,7 +690,43 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
-			"hrc" : false,			
+			"hrc" : false,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Guinea",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Guinea Bissau",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Guyana",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : false,
 			"icj" : false,
 			"icj2" : false
@@ -544,10 +736,10 @@
 		"country" : "Haiti",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -555,11 +747,11 @@
 	{
 		"country" : "Honduras",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -568,10 +760,10 @@
 		"country" : "Hungary",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -580,9 +772,9 @@
 		"country" : "Iceland",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -594,7 +786,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -604,10 +796,10 @@
 		"country" : "Indonesia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -616,10 +808,10 @@
 		"country" : "Iran, Islamic Rep. of",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -630,8 +822,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -642,8 +834,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -652,9 +844,9 @@
 		"country" : "Israel",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -663,11 +855,11 @@
 	{
 		"country" : "Italy",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : true,
 			"icj2" : false
 		}
@@ -676,10 +868,10 @@
 		"country" : "Jamaica",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : true,
 			"icj2" : false
 		}
@@ -690,7 +882,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : true
@@ -699,10 +891,10 @@
 	{
 		"country" : "Jordan",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -714,8 +906,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -724,9 +916,9 @@
 		"country" : "Kenya",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -736,10 +928,22 @@
 		"country" : "Kuwait",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Kyrgyzstan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -748,10 +952,10 @@
 		"country" : "Lao People's Dem. Rep.",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -760,10 +964,10 @@
 		"country" : "Latvia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -774,8 +978,20 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Lesotho",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -784,9 +1000,9 @@
 		"country" : "Liberia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -796,9 +1012,9 @@
 		"country" : "Libya",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -810,8 +1026,8 @@
 			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -820,9 +1036,9 @@
 		"country" : "Luxembourg",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : false,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : false,
 			"icj" : false,
 			"icj2" : false
@@ -832,9 +1048,21 @@
 		"country" : "Macedonia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Madagascar",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -843,10 +1071,10 @@
 	{
 		"country" : "Malawi",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -856,10 +1084,10 @@
 		"country" : "Malaysia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -870,8 +1098,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -880,9 +1108,9 @@
 		"country" : "Mali",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -891,11 +1119,35 @@
 	{
 		"country" : "Malta",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Mauritania",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Mauritius",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : true,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -906,7 +1158,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -918,7 +1170,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -930,7 +1182,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -942,7 +1194,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -954,7 +1206,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -964,9 +1216,9 @@
 		"country" : "Mozambique",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -976,9 +1228,21 @@
 		"country" : "Myanmar",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Namibia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -988,10 +1252,10 @@
 		"country" : "Nepal",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -999,10 +1263,10 @@
 	{
 		"country" : "Netherlands",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1012,10 +1276,10 @@
 		"country" : "New Zealand",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1023,10 +1287,22 @@
 	{
 		"country" : "Nicaragua",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Niger",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1035,10 +1311,10 @@
 	{
 		"country" : "Nigeria",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1050,7 +1326,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1062,7 +1338,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1072,10 +1348,10 @@
 		"country" : "Palestine, State of",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1086,8 +1362,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1095,10 +1371,10 @@
 	{
 		"country" : "Paraguay",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : false,
+			"ga4" : true,
+			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1110,8 +1386,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1119,11 +1395,11 @@
 	{
 		"country" : "Philippines",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1132,10 +1408,10 @@
 		"country" : "Poland",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1146,8 +1422,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1156,21 +1432,21 @@
 		"country" : "Qatar",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
 	},
 	{
-		"country" : "Republic of Congo",
+		"country" : "Republic of the Congo",
 		"committees" : {
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1182,8 +1458,20 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Republic of Moldova",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1192,10 +1480,10 @@
 		"country" : "Romania",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1206,7 +1494,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -1216,9 +1504,21 @@
 		"country" : "Rwanda",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : false,
+			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Sao Tome & Principe",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1230,7 +1530,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1240,9 +1540,9 @@
 		"country" : "Senegal",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1254,7 +1554,19 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Seychelles",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1263,11 +1575,11 @@
 	{
 		"country" : "Sierra Leone",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : false,
-			"hrc" : true,			
-			"unep" : false,
+			"hrc" : true,
+			"unep" : true,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1278,7 +1590,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1288,10 +1600,10 @@
 		"country" : "Slovakia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : true,
 			"icj2" : false
 		}
@@ -1299,11 +1611,11 @@
 	{
 		"country" : "Slovenia",
 		"committees" : {
-			"ga4" : false,
-			"ecosoc" : true,
+			"ga4" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1314,7 +1626,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -1323,11 +1635,23 @@
 	{
 		"country" : "South Africa",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : false,
-			"hrc" : false,			
-			"unep" : false,
+			"hrc" : true,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "South Sudan",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : true,
+			"hrc" : true,
+			"unep" : true,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1336,10 +1660,10 @@
 		"country" : "Spain",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1350,8 +1674,8 @@
 			"ga4" : true,
 			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1360,21 +1684,21 @@
 		"country" : "Sudan",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
 		}
 	},
 	{
-		"country" : "South Sudan",
+		"country" : "Swaziland",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
-			"unodc" : true,
-			"hrc" : false,			
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1386,7 +1710,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1398,8 +1722,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1408,9 +1732,21 @@
 		"country" : "Syrian Arab Republic",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Tanzania",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1420,10 +1756,34 @@
 		"country" : "Thailand",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Togo",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : true,
 			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Trinidad and Tobago",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : true,
+			"unodc" : false,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1432,9 +1792,21 @@
 		"country" : "Turkey",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : true,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Tunisia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1446,7 +1818,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : false,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -1456,10 +1828,10 @@
 		"country" : "Ukraine",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1470,7 +1842,7 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1479,10 +1851,10 @@
 	{
 		"country" : "United Kingdom",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
+			"hrc" : true,
 			"unep" : true,
 			"icj" : true,
 			"icj2" : false
@@ -1492,10 +1864,10 @@
 		"country" : "United States of America",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : false,
+			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : false,
+			"unep" : false,
 			"icj" : true,
 			"icj2" : false
 		}
@@ -1504,10 +1876,10 @@
 		"country" : "Uruguay",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1516,22 +1888,22 @@
 		"country" : "Venezuela",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
 	},
 	{
-		"country" : "Vietnam",
+		"country" : "Viet Nam",
 		"committees" : {
-			"ga4" : false,
+			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : true,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
@@ -1540,9 +1912,21 @@
 		"country" : "Yemen",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
-			"hrc" : false,			
+			"hrc" : true,
+			"unep" : false,
+			"icj" : false,
+			"icj2" : false
+		}
+	},
+	{
+		"country" : "Zambia",
+		"committees" : {
+			"ga4" : true,
+			"ecosoc" : false,
+			"unodc" : false,
+			"hrc" : false,
 			"unep" : true,
 			"icj" : false,
 			"icj2" : false
@@ -1554,8 +1938,8 @@
 			"ga4" : true,
 			"ecosoc" : true,
 			"unodc" : true,
-			"hrc" : false,			
-			"unep" : true,
+			"hrc" : true,
+			"unep" : false,
 			"icj" : false,
 			"icj2" : false
 		}
