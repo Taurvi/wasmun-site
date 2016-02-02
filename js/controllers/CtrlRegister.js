@@ -1,6 +1,6 @@
 var ngApp = angular.module('ngApp');
+var socket = io('http://wasmun.org:3000');
 
-var socket = io('http://localhost:3000');
 
 ngApp.animation('.reveal-animation', function() {
     return {
@@ -21,6 +21,18 @@ ngApp.animation('.reveal-animation', function() {
 });
 
 ngApp.controller('CtrlRegister', ['$scope', '$rootScope', '$http', function($scope, $rootScope, $http) {
+
+    $scope.socketConnected = true;
+    socket.on('connect_error', function() {
+        console.log('socket failed');
+        $scope.socketConnected = false;
+    });
+    socket.on('connect', function() {
+        console.log('socket sucesss');
+        $scope.socketConnected = true;
+        $scope.$apply();
+    });
+
     $scope.show = false;
 
     $scope.matrixOpen = true;
