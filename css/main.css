@@ -63,6 +63,10 @@ body {
     border: none;
 }
 
+li.nostyle {
+    list-style-type: none;
+}
+
 /* Home Page Jumbotron */
 .jumbo-home {
     color: #ffffff;

@@ -1624,7 +1624,7 @@
 		"country" : "Somalia",
 		"committees" : {
 			"ga4" : true,
-			"ecosoc" : true,
+			"ecosoc" : false,
 			"unodc" : true,
 			"hrc" : false,
 			"unep" : true,
