@@ -1,3 +1,4 @@
+var socket = io('http://localhost:8080');
 var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate']);
 
 ngApp.config(['showErrorsConfigProvider', function(showErrorsConfigProvider) {
@@ -7,7 +8,6 @@ ngApp.config(['showErrorsConfigProvider', function(showErrorsConfigProvider) {
 ngApp.config(function($stateProvider, $urlRouterProvider) {
     // Strict Mode
     'use strict';
-
     $stateProvider
         .state('home', {
             url: '/',
@@ -60,6 +60,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 'content': {
                     templateUrl: 'js/views/conference-info.html',
                     controller: ''
+                }
+            }
+        })
+        .state('matrix', {
+            url: '/matrix',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/matrix.html',
+                    controller: 'MatrixController'
                 }
             }
         })
