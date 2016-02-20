@@ -16,6 +16,16 @@
     </div>
 </div>
 <div class="row" ng-show="socketConnected">
+    <div class="col-xs-8 center-block text-center">
+        <div class="alert alert-danger" role="alert">
+            <i class="fa fa-exclamation-triangle fa-3x"></i>
+            <div class="sspacer-sm"></div>
+            <span class="sr-only">REGISTRATION CLOSED:</span>
+            Registration for WASMUN 2016 is now closed. For any additional inquiries, please email the Secretary General at <a href="mailto:sg@wasmun.org">sg@wasmun.org</a>.
+        </div>
+    </div>
+</div>
+<div class="row" ng-if="false">
     <div class="col-xs-8 center-block">
         <div class="row" ng-hide="pendingSubmission || formSuccess || formError">
             <form name="formRegistration" novalidate>
