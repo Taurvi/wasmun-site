@@ -1,0 +1,13 @@
+<div class="jumbotron jumbo-matrix">
+    <div class="container-fluid text-center spacer-sm">
+        <h1>COUNTRY MATRIX</h1>
+    </div>
+</div>
+<div class="col-sm-11 center-block">
+    School names have been truncated to allow better viewing of the matrix. You can use the textbox under each column header in order to search (for committees, use 'true' or 'false').
+    <br><br>
+    If you believe there is a mistake or have any questions, please email the Secretary General at <a href="mailto:sg@wasmun.org">sg@wasmun.org</a>.
+    <div class="spacer-sm"></div>
+    <div ng-if="countryMatrix.length > 0" id="grid1" ui-grid="gridOptions" class="grid"></div>
+    <div class="spacer-sm"></div>
+</div>

@@ -98,8 +98,8 @@ li.nostyle {
 .jumbo-secretariat {
     color: #ffffff;
     font-weight: 700;
-    background-image: url('../img/secretariat-bg.png');
-    background-position: center center;
+    background-image: url('../img/secretariat-bg-new.png');
+    background-position: center 45%;
     background-repeat: no-repeat;
     background-size: 100%;
     text-transform: uppercase;
@@ -155,6 +155,16 @@ li.nostyle {
     color: #ffffff;
     font-weight: 700;
     background-image: url('../img/register-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
+.jumbo-matrix {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/matrix-bg.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -233,3 +243,10 @@ label {
     display: block;
 }
 
+.grid {
+    height: 500px;
+}
+
+.secretariat-profile {
+    width: 150px;
+}

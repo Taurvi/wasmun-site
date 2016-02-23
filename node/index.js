@@ -20,7 +20,7 @@ http.listen(3000, function(){
     serverMsg('Server is now listening on *:3000');
 });
 
-var database = new Firebase("");
+var database = new Firebase("https://wasmun-register.firebaseio.com/");
 
 io.sockets.on('connection', function(socket){
     serverMsg('  User has connected: ' + socket.id);

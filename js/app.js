@@ -1,11 +1,11 @@
-var socket = io('http://localhost:8080');
-var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate']);
+var socket = io('http://localhost:3000');
+var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate', 'ui.grid']);
 
-ngApp.config(['showErrorsConfigProvider', function(showErrorsConfigProvider) {
+ngApp.config(['showErrorsConfigProvider', function (showErrorsConfigProvider) {
     showErrorsConfigProvider.showSuccess(true);
 }]);
 
-ngApp.config(function($stateProvider, $urlRouterProvider) {
+ngApp.config(function ($stateProvider, $urlRouterProvider) {
     // Strict Mode
     'use strict';
     $stateProvider
@@ -63,15 +63,6 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 }
             }
         })
-        .state('matrix', {
-            url: '/matrix',
-            views: {
-                'content': {
-                    templateUrl: 'js/views/matrix.html',
-                    controller: 'MatrixController'
-                }
-            }
-        })
         .state('conferenceSpeaker', {
             url: '/conference-speaker',
             views: {
@@ -87,6 +78,15 @@ ngApp.config(function($stateProvider, $urlRouterProvider) {
                 'content': {
                     templateUrl: 'js/views/registration.html',
                     controller: 'CtrlRegister'
+                }
+            }
+        })
+        .state('matrix', {
+            url: '/matrix',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/matrix.html',
+                    controller: 'CtrlMatrix'
                 }
             }
         });
