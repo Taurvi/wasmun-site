@@ -171,6 +171,16 @@ li.nostyle {
     text-transform: uppercase;
 }
 
+.jumbo-location-schedule {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/location-bg.png');
+    background-position: right 80%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
 th {
     text-align: center;
 }

@@ -23,14 +23,14 @@
   },
   {
     "country": "Algeria",
-    "ga4": true,
-    "ecosoc": true,
-    "unodc": true,
-    "hrc": true,
+    "ga4": false,
+    "ecosoc": false,
+    "unodc": false,
+    "hrc": false,
     "unep": true,
     "icj": false,
     "icj2": false,
-    "school": ""
+    "school": "Independent"
   },
   {
     "country": "Andorra",
@@ -925,14 +925,14 @@
   },
   {
     "country": "Libya",
-    "ga4": true,
+    "ga4": false,
     "ecosoc": false,
-    "unodc": true,
+    "unodc": false,
     "hrc": true,
-    "unep": true,
+    "unep": false,
     "icj": false,
     "icj2": false,
-    "school": ""
+    "school": "Henry M Jackson"
   },
   {
     "country": "Liechtenstein",

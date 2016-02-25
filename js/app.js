@@ -89,6 +89,14 @@ ngApp.config(function ($stateProvider, $urlRouterProvider) {
                     controller: 'CtrlMatrix'
                 }
             }
+        })
+        .state('locationSchedule', {
+            url: '/location-schedule',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/location-schedule.html',
+                }
+            }
         });
 
     $urlRouterProvider.otherwise('/');
