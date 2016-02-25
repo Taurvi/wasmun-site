@@ -6,13 +6,18 @@
 
         <div class="spacer-sm"></div>
 
-        <button class="btn btn-info btn-lg col-xs-6 center-block" ui-sref="conferenceInfo">CONFERENCE INFORMATION
-        </button>
+        <button class="btn btn-info btn-lg col-xs-6 center-block" ui-sref="conferenceInfo">CONFERENCE INFORMATION</button>
 
         <div class="spacer-sm"></div>
 
-        <button class="btn btn-warning btn-lg col-xs-6 center-block" ui-sref="locationSchedule">LOCATION AND SCHEDULE
-        </button>
+        <button class="btn btn-warning btn-lg col-xs-6 center-block" ui-sref="locationSchedule">LOCATION AND SCHEDULE</button>
+
+        <div class="spacer-sm"></div>
+
+        <h3><timer countdown="countdownTime" interval="1000">{{days}} day{{daysS}}, {{hours}} hour{{hoursS}}, {{minutes}} minute{{minutesS}}, {{seconds}} second{{secondsS}}</timer>
+            <br>
+        <small>Remaining Until Opening</small>
+        </h3>
     </div>
 </div>
 <div class="row">
@@ -20,13 +25,18 @@
         <div class="row text-center">
             <img src="img/logo-v-small.png">
         </div>
-        <h4 class="text-center">WASMUN 2016 is going to be hosted from <strong>March 5th to March 6th</strong> at the
+        <h4 class="text-center spacer-sm">WASMUN 2016 is going to be hosted from <strong>March 5th to March 6th</strong>
+            at the
             <strong>University of Washington</strong>.</h4>
 
-        <div class="spacer-sm"></div>
+        <div class="spacer-sm text-center">
+            <img src="img/keep-debating.png" style="width: 250px"
+                 title="The WASMUN Secretariat would like to remind all delegates, advisors, parents, and staff not to panic as we get closer to the conference. Everything will be alright!">
+        </div>
 
         <h3><span class="label label-success">UPDATED 02-25-16</span> Updated Conference Location and Schedule</h3>
-        <h4 class="home-about">Information on <a ui-sref="locationSchedule">Conference Location and Schedule</a> has been
+        <h4 class="home-about">Information on <a ui-sref="locationSchedule">Conference Location and Schedule</a> has
+            been
             updated. Please note - room assignments are still tentative and may change.</h4>
 
         <div class="spacer-sm"></div>

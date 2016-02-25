@@ -1,5 +1,5 @@
 var socket = io('http://localhost:3000');
-var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate', 'ui.grid']);
+var ngApp = angular.module('ngApp', ['ui.router', 'ui.bootstrap', 'ui.bootstrap.showErrors', 'ngAnimate', 'ui.grid', 'timer']);
 
 ngApp.config(['showErrorsConfigProvider', function (showErrorsConfigProvider) {
     showErrorsConfigProvider.showSuccess(true);
