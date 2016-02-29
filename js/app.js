@@ -97,6 +97,15 @@ ngApp.config(function ($stateProvider, $urlRouterProvider) {
                     templateUrl: 'js/views/location-schedule.html',
                 }
             }
+        })
+        .state('medicalInformation', {
+            url: '/medical-information',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/medical-information.html',
+                    controller: 'CtrlMedical'
+                }
+            }
         });
 
     $urlRouterProvider.otherwise('/');
