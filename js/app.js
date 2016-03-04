@@ -95,6 +95,7 @@ ngApp.config(function ($stateProvider, $urlRouterProvider) {
             views: {
                 'content': {
                     templateUrl: 'js/views/location-schedule.html',
+                    controller: 'CtrlLocation'
                 }
             }
         })

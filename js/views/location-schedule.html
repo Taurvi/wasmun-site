@@ -68,35 +68,35 @@
                 </tr>
                 <tr class="text-warning">
                     <td><strong><i class="fa fa-sun-o"></i> Registration/Opening Ceremonies</strong></td>
-                    <td><strong>GUG 220</strong></td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('GUG')"><strong>GUG 220</strong></td>
                 </tr>
                 <tr>
                     <td>GA4</td>
-                    <td>SMI 211</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 211</td>
                 </tr>
                 <tr>
                     <td>**UNODC</td>
-                    <td>GWN 201</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('GWN')">GWN 201</td>
                 </tr>
                 <tr>
                     <td>**ECOSOC</td>
-                    <td>SMI 105 (SMI 404 - Session II)</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 105 (SMI 404 - Session II)</td>
                 </tr>
                 <tr>
                     <td>UNEP</td>
-                    <td>SMI 304</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 304</td>
                 </tr>
                 <tr>
                     <td>HRC</td>
-                    <td>SMI 102</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 102</td>
                 </tr>
                 <tr>
                     <td>ICJ</td>
-                    <td>SMI 107</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 107</td>
                 </tr>
                 <tr class="text-info">
                     <td><strong><i class="fa fa-suitcase"></i> Conference Services</strong></td>
-                    <td><strong>SMI 407</strong></td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')"><strong>SMI 407</strong></td>
                 </tr>
                 <tr class="text-success">
                     <td><strong><i class="fa fa-graduation-cap"></i> Faculty</strong></td>
@@ -148,46 +148,46 @@
                 </tr>
                 <tr class="text-danger">
                     <td><strong><i class="fa fa-moon-o"></i> Closing Ceremonies</strong></td>
-                    <td><strong>GUG 220</strong></td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('GUG')"><strong>GUG 220</strong></td>
                 </tr>
                 <tr>
                     <td>GA4</td>
-                    <td>SMI 211</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 211</td>
                 </tr>
                 <tr>
                     <td>**UNODC</td>
-                    <td>SMI 205</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 205</td>
                 </tr>
                 <tr>
                     <td>ECOSOC</td>
-                    <td>SMI 105</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 105</td>
                 </tr>
                 <tr>
                     <td>UNEP</td>
-                    <td>SMI 304</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 304</td>
                 </tr>
                 <tr>
                     <td>HRC</td>
-                    <td>SMI 102</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 102</td>
                 </tr>
                 <tr>
                     <td>ICJ</td>
-                    <td>SMI 107</td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SMI')">SMI 107</td>
                 </tr>
                 <tr class="text-info">
                     <td><strong><i class="fa fa-suitcase"></i> Conference Services</strong></td>
-                    <td><strong>SAV 132</strong></td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SAV')"><strong>SAV 132</strong></td>
                 </tr>
                 <tr class="text-success">
                     <td><strong><i class="fa fa-graduation-cap"></i> Faculty</strong></td>
-                    <td><strong>SAV 162</strong></td>
+                    <td style="cursor: pointer; cursor: hand;" ng-click="setLocation('SAV')"><strong>SAV 162</strong></td>
                 </tr>
             </table>
         </div>
     </div>
     <div class="spacer-sm"></div>
     <div class="embed-responsive embed-responsive-4by3">
-        <iframe class="embed-responsive-item" src="http://uw.edu/maps/?lndmk-1"></iframe>
+        <iframe class="embed-responsive-item" src="{{location | trustAsResourceUrl}}"></iframe>
     </div>
 
 </div>
