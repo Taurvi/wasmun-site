@@ -950,8 +950,8 @@
     "ga4": true,
     "ecosoc": false,
     "unodc": false,
-    "hrc": true,
-    "unep": false,
+    "hrc": false,
+    "unep": true,
     "icj": false,
     "icj2": false,
     "school": "Bellevue Christian"
