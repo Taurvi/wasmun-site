@@ -151,7 +151,7 @@
     "unep": false,
     "icj": false,
     "icj2": false,
-    "school": ""
+    "school": "Roosevelt"
   },
   {
     "country": "Benin",
@@ -178,7 +178,7 @@
   {
     "country": "Bolivia, Plurinational State of",
     "ga4": true,
-    "ecosoc": true,
+    "ecosoc": false,
     "unodc": false,
     "hrc": true,
     "unep": false,
@@ -321,7 +321,7 @@
   {
     "country": "China",
     "ga4": true,
-    "ecosoc": true,
+    "ecosoc": false,
     "unodc": true,
     "hrc": true,
     "unep": true,
@@ -398,7 +398,7 @@
   {
     "country": "Dem. People's Rep. of Korea",
     "ga4": true,
-    "ecosoc": false,
+    "ecosoc": true,
     "unodc": true,
     "hrc": false,
     "unep": true,
@@ -1060,7 +1060,7 @@
     "ga4": true,
     "ecosoc": true,
     "unodc": true,
-    "hrc": true,
+    "hrc": false,
     "unep": true,
     "icj": false,
     "icj2": false,
@@ -1068,21 +1068,21 @@
   },
   {
     "country": "Monaco",
-    "ga4": true,
+    "ga4": false,
     "ecosoc": true,
-    "unodc": true,
+    "unodc": false,
     "hrc": false,
     "unep": true,
     "icj": false,
     "icj2": false,
-    "school": ""
+    "school": "Roosevelt"
   },
   {
     "country": "Mongolia",
     "ga4": true,
     "ecosoc": true,
     "unodc": true,
-    "hrc": true,
+    "hrc": false,
     "unep": true,
     "icj": false,
     "icj2": false,
@@ -1124,9 +1124,9 @@
   {
     "country": "Myanmar",
     "ga4": true,
-    "ecosoc": false,
+    "ecosoc": true,
     "unodc": true,
-    "hrc": true,
+    "hrc": false,
     "unep": true,
     "icj": false,
     "icj2": false,
@@ -1258,7 +1258,7 @@
     "ga4": true,
     "ecosoc": true,
     "unodc": true,
-    "hrc": true,
+    "hrc": false,
     "unep": true,
     "icj": false,
     "icj2": false,
@@ -1372,12 +1372,12 @@
     "unep": true,
     "icj": true,
     "icj2": false,
-    "school": "Roosevelt"
+    "school": "Center"
   },
   {
     "country": "Rwanda",
     "ga4": true,
-    "ecosoc": true,
+    "ecosoc": false,
     "unodc": true,
     "hrc": false,
     "unep": true,
@@ -1408,26 +1408,48 @@
     "school": "Vancouver"
   },
   {
-    "country": "Senegal",
+    "country": "Senegal GA",
     "ga4": true,
     "ecosoc": false,
-    "unodc": true,
-    "hrc": true,
-    "unep": true,
+    "unodc": false,
+    "hrc": false,
+    "unep": false,
     "icj": false,
     "icj2": false,
     "school": "Juanita"
   },
   {
+    "country": "Senegal UNEP",
+    "ga4": false,
+    "ecosoc": false,
+    "unodc": false,
+    "hrc": false,
+    "unep": true,
+    "icj": false,
+    "icj2": false,
+    "school": "Center"
+  },
+  {
+    "country": "Senegal HRC",
+    "ga4": false,
+    "ecosoc": false,
+    "unodc": false,
+    "hrc": true,
+    "unep": false,
+    "icj": false,
+    "icj2": false,
+    "school": "Roosevelt"
+  },
+  {
     "country": "Serbia",
-    "ga4": true,
+    "ga4": false,
     "ecosoc": true,
-    "unodc": true,
+    "unodc": false,
     "hrc": false,
     "unep": false,
     "icj": false,
     "icj2": false,
-    "school": ""
+    "school": "Roosevelt"
   },
   {
     "country": "Seychelles",
@@ -1446,7 +1468,7 @@
     "ecosoc": false,
     "unodc": false,
     "hrc": true,
-    "unep": true,
+    "unep": false,
     "icj": false,
     "icj2": false,
     "school": "Attic"
@@ -1500,8 +1522,8 @@
     "ga4": true,
     "ecosoc": true,
     "unodc": false,
-    "hrc": true,
-    "unep": true,
+    "hrc": false,
+    "unep": false,
     "icj": false,
     "icj2": false,
     "school": "Riverstone"
