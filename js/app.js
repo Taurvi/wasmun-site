@@ -107,6 +107,14 @@ ngApp.config(function ($stateProvider, $urlRouterProvider) {
                     controller: 'CtrlMedical'
                 }
             }
+        })
+        .state('draftResolutions', {
+            url: '/draft-resolutions',
+            views: {
+                'content': {
+                    templateUrl: 'js/views/draft-resolutions.html'
+                }
+            }
         });
 
     $urlRouterProvider.otherwise('/');

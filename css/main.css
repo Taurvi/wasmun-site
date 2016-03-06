@@ -181,6 +181,16 @@ li.nostyle {
     text-transform: uppercase;
 }
 
+.jumbo-resolutions {
+    color: #ffffff;
+    font-weight: 700;
+    background-image: url('../img/dr-bg.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-transform: uppercase;
+}
+
 th {
     text-align: center;
 }
